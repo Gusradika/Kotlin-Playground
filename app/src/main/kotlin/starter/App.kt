@@ -6,7 +6,6 @@ package starter
 
 // Main function
 fun main() {
-
     val name = "Aditya Kesuma";
     print("Hello My name is ");
     println(name);
@@ -18,8 +17,6 @@ fun main() {
     val valueA : Int = 10;
     val valueB = 20;
     print(valueA + valueB);
-    
-
 
     cetakLineSpasi();
 
@@ -57,9 +54,16 @@ fun main() {
     text2?.length
 
 
-    // Elvis Operator
+    // Elvis Operator(?:)
      /*YElvis operator memungkinkan kita untuk menetapkan default value atau nilai dasar jika objek bernilai null. */
     val textLength = text2?.length ?: 7;
+
+    cetakLineSpasi();
+    
+    // String Template
+    // Kita dapat menggunakan ${} untuk 
+      val hour = 7
+    print("Office ${if (hour > 7) "already close" else "is open"}")
 }
 
 // Data Types dan Variable
